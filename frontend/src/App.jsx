@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ClerkProvider } from "@clerk/clerk-react";
+import ReactDOM from 'react-dom/client'
 import Home from "./pages/Home";
 import Jobs from "./pages/Jobs";
 import Dashboard from "./pages/Dashboard";
