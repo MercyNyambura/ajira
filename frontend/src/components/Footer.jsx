@@ -76,22 +76,22 @@ const Footer = () => {
             <h3 className="mb-4 text-sm font-semibold text-foreground">Resources</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/about" className="text-muted-foreground transition-colors hover:text-primary">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/career-advice" className="text-muted-foreground transition-colors hover:text-primary">
                   Career Advice
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/help" className="text-muted-foreground transition-colors hover:text-primary">
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/contact" className="text-muted-foreground transition-colors hover:text-primary">
                   Contact Us
                 </a>
               </li>
@@ -99,21 +99,22 @@ const Footer = () => {
           </div>
 
           {/* Legal */}
+        
           <div>
             <h3 className="mb-4 text-sm font-semibold text-foreground">Legal</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/privacy-policy" className="text-muted-foreground transition-colors hover:text-primary">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/terms" className="text-muted-foreground transition-colors hover:text-primary">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground transition-colors hover:text-primary">
+                <a href="/cookie-policy" className="text-muted-foreground transition-colors hover:text-primary">
                   Cookie Policy
                 </a>
               </li>

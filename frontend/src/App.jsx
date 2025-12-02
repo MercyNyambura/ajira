@@ -13,7 +13,14 @@ import SignUp from "./pages/SignUp";
 import NotFound from "./pages/NotFound";
 import LoginClerk from "./pages/LoginClerk"
 import ProtectedRoute from "./components/ProtectedRoute";
-
+import About from "./pages/About";
+import Resources from "./pages/Resources";
+import CareerAdvice from "./pages/CareerAdvice";
+import HelpCenter from "./pages/HelpCenter";
+import Contact from "./pages/Contact";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import CookiePolicy from "./pages/CookiePolicy";
 
 
 const queryClient = new QueryClient();
@@ -37,6 +44,16 @@ const App = () => (
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />
             
+            <Route path="/about" element={<About />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/career-advice" element={<CareerAdvice />} />
+            <Route path="/help" element={<HelpCenter />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+
+
             <Route
               path="/dashboard"
               element={
