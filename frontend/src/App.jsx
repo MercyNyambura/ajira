@@ -14,6 +14,8 @@ import NotFound from "./pages/NotFound";
 import LoginClerk from "./pages/LoginClerk"
 import ProtectedRoute from "./components/ProtectedRoute";
 
+
+
 const queryClient = new QueryClient();
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE;
@@ -34,6 +36,7 @@ const App = () => (
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/sign-in" element={<SignIn />} />
             <Route path="/sign-up" element={<SignUp />} />
+            
             <Route
               path="/dashboard"
               element={
@@ -42,7 +45,7 @@ const App = () => (
                 </ProtectedRoute>
               }
             />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
