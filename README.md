@@ -2,7 +2,7 @@
 
 Ajirio is a digital platform designed to connect job seekers with verified employers and gig opportunities. The platform aims to reduce unemployment by providing accessible, transparent, and fair job opportunities, aligned with UN Sustainable Development Goal 8.
 
-Live App: 
+Live App: https://ajirio.vercel.app/  
 
 This repository contains the **frontend** of the Ajirio platform, built with **React**, **Vite**, **Tailwind CSS**, **ShadCN UI**, and **Clerk authentication**.
 
